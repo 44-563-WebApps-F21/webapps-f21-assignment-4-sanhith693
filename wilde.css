@@ -24,9 +24,54 @@
 .SIRROBERTCHILTERN{   
     color:yellow;
 }
+table, th, td {
+    border: 5px solid black; 
+    width:auto;
+    border-collapse: collapse;
+    text-align: center;
+   
+  }
+  tr:nth-child(odd)
+  {
+      background-color: rgb(194, 165, 71);
+  }
+
 .LORDCAVERSHAM{
     color:blue;
 }
 .MABELCHILTERN{
     color:brown;
 }
+.MABELCHILTERN:hover{
+    text-shadow: 2px 3px 4px crimson ;
+    border-style: double;
+    border: 1px solid;
+    background-color: rgb(156, 241, 241);
+    box-shadow: 4px 4px 4px gray;
+    filter: blur(1px);
+}
+.LORDCAVERSHAM:hover{
+    text-shadow: 2px 3px 4px rgb(176, 202, 25) ;
+    border-style: double;
+    border: 1px solid;
+    background-color: rgb(130, 247, 192);
+    box-shadow: 4px 4px 4px rgb(209, 98, 98);
+    filter: blur(1px);}
+    ul.navbar-horizontal {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    ul.navbar-horizontal li {
+        float:left;
+        background: linear-gradient(110deg, rgb(129, 136, 230) 60%,rgb(68, 212, 55) 60%);
+    }
+    ul.navbar-horizontal a {
+        display:block;
+        padding:20px;
+        color: rgb(58, 221, 213);
+    }
+    ul.navbar-horizontal a:hover {
+        background-color:rgb(224, 96, 149);
+        color:rgb(180, 240, 62);
+    }
